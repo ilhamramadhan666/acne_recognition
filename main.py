@@ -8,7 +8,7 @@ import os
 from flask_cors import CORS, cross_origin
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model = load_model(os.path.join(BASE_DIR , 'capstone_1.2_model.hdf5'))
+model = load_model(os.path.join(BASE_DIR , 'saved_model/capstone_1.2_model/'))
 
 ALLOWED_EXT = set(['jpg' , 'jpeg' , 'png' , 'jfif'])
 def allowed_file(filename):
