@@ -2,5 +2,5 @@ tensorflow==2.7.0
 keras==2.7.0
 flask
 opencv-python
-flask
+Flask-Cors
 numpy
