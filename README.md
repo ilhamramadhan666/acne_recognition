@@ -1,7 +1,19 @@
 # acne_recognition
-For recognizing acnes and rosacea. In progress.
+For recognizing acnes and rosacea. Done. Deployed on Heroku.
 
-return top label.
+```
+https://ml-acne-recog.herokuapp.com/
+```
+
+return top label name (acne/rosacea type).
+
+To get inference, send POST request to:
+
+```
+https://ml-acne-recog.herokuapp.com/process
+```
+
+with form-data body, key: img, type: file, and attach the image.
 
 to run:
 ```
