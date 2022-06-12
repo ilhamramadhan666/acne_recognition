@@ -1,7 +1,7 @@
 tensorflow-cpu
 keras==2.7.0
 flask
-python3-opencv
+opencv-python-headless
 Flask-Cors
 numpy
 sklearn
