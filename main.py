@@ -43,7 +43,7 @@ cors = CORS(app)
 @app.route("/")
 def main():
     return """
-        Application is working
+        Application is working. Send POST request to /process to get prediction.
     """
 
 # About page with render template
